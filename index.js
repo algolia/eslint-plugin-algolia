@@ -1,5 +1,5 @@
 module.exports = {
   rules: {
-    'js-ext-for-require': require('./dist/rules/js-ext-for-require.js')
+    'relative-require': require('./dist/rules/relative-require.js')
   }
 };
