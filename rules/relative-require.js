@@ -3,7 +3,7 @@ import path from 'path';
 
 // Rule Definition
 module.exports = (context) => {
-  const currentCheckedFile = context.getFilename();
+  const currentCheckedFolder = path.dirname(context.getFilename());
   return {
     CallExpression: (node) => {
       let required;
@@ -19,7 +19,7 @@ module.exports = (context) => {
 
       // No error if the file/folder exists
       try {
-        fs.statSync(path.join(currentCheckedFile, required));
+        fs.statSync(path.join(currentCheckedFolder, required));
       } catch (err) {
         const subMessage = (path.extname(required) === '') ? 'without extension' : 'not existing file';
         context.report({
