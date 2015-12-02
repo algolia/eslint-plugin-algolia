@@ -12,6 +12,7 @@
   "scripts": {
     "build": "scripts/build.sh",
     "lint": "eslint .",
+    "release": "./scripts/release.sh",
     "test": "babel-node **/__tests__/*-test.js && npm run lint"
   },
   "author": "Algolia <support@algolia.com>",
