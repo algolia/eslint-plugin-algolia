@@ -12,7 +12,7 @@
   "scripts": {
     "build": "scripts/build.sh",
     "lint": "eslint .",
-    "test": "npm run lint"
+    "test": "babel-node **/__tests__/*-test.js && npm run lint"
   },
   "author": "Algolia <support@algolia.com>",
   "license": "MIT",
