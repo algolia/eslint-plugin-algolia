@@ -12,7 +12,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // Rule Definition
 module.exports = function (context) {
-  var currentCheckedFile = context.getFilename();
+  var currentCheckedFolder = _path2.default.dirname(context.getFilename());
   return {
     CallExpression: function CallExpression(node) {
       var required = undefined;
@@ -28,7 +28,7 @@ module.exports = function (context) {
 
       // No error if the file/folder exists
       try {
-        _fs2.default.statSync(_path2.default.join(currentCheckedFile, required));
+        _fs2.default.statSync(_path2.default.join(currentCheckedFolder, required));
       } catch (err) {
         var subMessage = _path2.default.extname(required) === '' ? 'without extension' : 'not existing file';
         context.report({
