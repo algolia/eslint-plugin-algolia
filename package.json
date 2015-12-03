@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/algolia/eslint-plugin-algolia",
   "devDependencies": {
-    "babel-eslint": "^5.0.0-beta2",
     "babel-core": "^6.0.0",
+    "babel-eslint": "^5.0.0-beta2",
     "babel-preset-es2015": "^6.0.0",
     "eslint": "^1.7.3",
     "eslint-config-airbnb": "^0.1.0",
-    "eslint-config-algolia": "^4.2.0",
+    "eslint-config-algolia": "^4.3.3",
     "eslint-plugin-algolia": "file:.",
     "eslint-plugin-react": "^3.6.3"
   }
