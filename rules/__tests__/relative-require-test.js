@@ -3,7 +3,7 @@ import {RuleTester} from 'eslint';
 
 // Tests
 let ruleTester = new RuleTester();
-ruleTester.run('js-ext-for-requires', rule, {
+ruleTester.run('relative-require', rule, {
   valid: [
     // Works only if run in the root folder and these files exists
     "var name = './not_existing_file.ext'; require(name);",
