@@ -20,12 +20,12 @@ ruleTester.run('force-import-root', rule, {
   ],
   invalid: [{
     code: "require('a');",
-    errors: [{message: 'Use import instead of require'}]
+    errors: [{message: 'Use import instead of require at the root level'}]
   }, {
     code: "var a = require('a');",
-    errors: [{message: 'Use import instead of require'}]
+    errors: [{message: 'Use import instead of require at the root level'}]
   }, {
     code: "var {a} = require('a')",
-    errors: [{message: 'Use import instead of require'}]
+    errors: [{message: 'Use import instead of require at the root level'}]
   }]
 });
