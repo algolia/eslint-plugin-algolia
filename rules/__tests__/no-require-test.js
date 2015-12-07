@@ -27,8 +27,8 @@ ruleTester.run('force-import-root', rule, {
     testInvalid("var {a} = require('a')"),
     testInvalid("require('a')()"),
     testInvalid("var a = require('a')()"),
-    testInvalid("var a = 1; var b = 2; var c = require('a')()")
+    testInvalid("var a = 1; var b = 2; var c = require('a')()"),
     testInvalid("var name = 'a'; require(name);"),
-    testInvvalid("() => require('a');"),
+    testInvalid("() => require('a');")
   ]
 });
