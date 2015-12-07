@@ -29,6 +29,7 @@
     "eslint-config-airbnb": "^0.1.0",
     "eslint-config-algolia": "^4.3.3",
     "eslint-plugin-algolia": "file:.",
-    "eslint-plugin-react": "^3.6.3"
+    "eslint-plugin-react": "^3.6.3",
+    "json": "^9.0.3"
   }
 }
