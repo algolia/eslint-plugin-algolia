@@ -1,9 +1,5 @@
-function isModuleExports(node) {
-
-}
-
 // Rule definition
-module.exports = (context) => {
+export default (context) => {
   return {
     MemberExpression: (node) => {
       // Only check module.exports

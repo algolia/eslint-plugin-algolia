@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 // Rule Definition
-module.exports = (context) => {
+export default (context) => {
   const currentCheckedFolder = path.dirname(context.getFilename());
   return {
     CallExpression: (node) => {

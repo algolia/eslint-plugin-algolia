@@ -1,4 +1,6 @@
-module.exports = {
+/* eslint algolia/no-require: 0 */
+
+export default {
   rules: {
     'relative-require': require('./rules/relative-require.js'),
     'force-import-root': require('./rules/force-import-root.js'),

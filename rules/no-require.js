@@ -1,5 +1,5 @@
 // Rule definition
-module.exports = (context) => {
+export default (context) => {
   return {
     CallExpression: (node) => {
       // Only check requires

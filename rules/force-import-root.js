@@ -7,7 +7,7 @@ function compareArrays(arr1, arr2) {
 }
 
 // Rule definition
-module.exports = (context) => {
+export default (context) => {
   return {
     CallExpression: (node) => {
       const ancestors = context.getAncestors().map((ancestor) => ancestor.type);
