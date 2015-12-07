@@ -16,7 +16,7 @@
     "build": "scripts/build.sh",
     "lint": "eslint .",
     "release": "./scripts/release.sh",
-    "test": "babel-node **/__tests__/*-test.js && npm run lint"
+    "test": "./scripts/test.sh"
   },
   "author": "Algolia <support@algolia.com>",
   "license": "MIT",
