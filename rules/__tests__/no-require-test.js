@@ -1,4 +1,4 @@
-import rule from '../force-import-root.js';
+import rule from '../no-require.js';
 import {RuleTester} from 'eslint';
 
 RuleTester.setDefaultConfig({
