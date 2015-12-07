@@ -10,8 +10,7 @@ read -p "New version number (current is ${current}): " version
 npm version $version
 npm run build
 rm -f VERSION && echo $version > VERSION
-git add dist/
-git commit VERSION dist/ --amend -m "v$version"
+git commit VERSION --amend -m "v$version"
 git push
 git push --tags
 npm publish

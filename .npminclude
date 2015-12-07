@@ -1,0 +1,4 @@
+.npminclude
+package.json
+dist
+LICENSE
