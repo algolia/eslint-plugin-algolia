@@ -13,7 +13,7 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "scripts/build.sh",
+    "build": "./scripts/build.sh",
     "lint": "eslint .",
     "release": "./scripts/release.sh",
     "test": "./scripts/test.sh"
