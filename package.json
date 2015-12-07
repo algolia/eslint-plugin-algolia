@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-algolia",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "readme": "README.md",
   "description": "Algolia's ESLint plugin.",
   "repository": "algolia/eslint-plugin-algolia",
