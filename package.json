@@ -8,6 +8,9 @@
     "eslint",
     "eslintplugin"
   ],
+  "files": [
+    "dist/"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "build": "scripts/build.sh",
