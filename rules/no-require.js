@@ -1,7 +1,7 @@
 // Rule definition
 module.exports = (context) => {
   return {
-      CallExpression: (node) => {
+    CallExpression: (node) => {
       // Only check requires
       if (node.callee.name !== 'require') return;
 
