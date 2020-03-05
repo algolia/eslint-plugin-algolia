@@ -1,16 +1,8 @@
-/* eslint algolia/no-require: 0 */
-
-export default {
+module.exports = {
   rules: {
-    'relative-require': require('./rules/relative-require.js'),
-    'force-import-root': require('./rules/force-import-root.js'),
-    'no-require': require('./rules/no-require.js'),
-    'no-module-exports': require('./rules/no-module-exports.js')
+    'func-style-toplevel': require('./rules/func-style-toplevel.js'),
   },
   rulesConfig: {
-    'relative-require': 0,
-    'force-import-root': 0,
-    'no-require': 0,
-    'no-module-exports': 0
-  }
+    'func-style-toplevel': 0,
+  },
 };
