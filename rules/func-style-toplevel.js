@@ -1,7 +1,7 @@
 /**
  * @file Rule to enforce a particular function style at top level.
  *
- * Heavily inspired by `func-style` https://eslint.org/docs/rules/func-style
+ * Heavily inspired by `func-style` https://eslint.org/docs/rules/func-style.
  */
 
 // ------------------------------------------------------------------------------

@@ -1,14 +1,15 @@
 /**
- * @fileoverview Tests for func-style-toplevel rule.
+ * @file Tests for func-style-toplevel rule.
  * @author Samuel Bodin
  */
 
 // Requirements
-
-const { RuleTester } = require('eslint');
 const path = require('path');
 
+const { RuleTester } = require('eslint');
+
 const rule = require('../func-style-toplevel');
+
 const BABEL_ESLINT = path.join(__dirname, '../../node_modules', 'babel-eslint');
 
 // Tests
