@@ -5,7 +5,6 @@ if test -n "$(git status --porcelain)"; then
   exit
 fi
 
-npm version
+yarn publish
 git push
 git push --tags
-npm publish
