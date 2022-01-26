@@ -6,7 +6,6 @@ if test -n "$(git status --porcelain)"; then
 fi
 
 npm version
-npm run build
 git push
 git push --tags
 npm publish

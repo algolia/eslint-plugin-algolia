@@ -13,7 +13,6 @@
   ],
   "main": "index.js",
   "scripts": {
-    "build": "./scripts/build.sh",
     "lint": "eslint index.js rules/",
     "release": "./scripts/release.sh",
     "test": "./scripts/test.sh"
